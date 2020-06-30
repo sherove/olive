@@ -1,0 +1,19 @@
+package com.main.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/main")
+public class MainController {
+	
+	@RequestMapping("/index") 
+	public String view() {
+		// 데이터만 설정이 가능
+		System.out.println("--dfdf");
+		
+		return "index"; 
+	}
+
+	
+}

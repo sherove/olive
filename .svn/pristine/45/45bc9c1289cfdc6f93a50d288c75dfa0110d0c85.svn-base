@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+Hello...
+<P>  The time on the server is ${serverTime}. </P>
+<button type="button" class="btn-login" id="tableBtn">Login</button>
+<table>
+
+</table>
+</body>
+</html>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+
+</script>

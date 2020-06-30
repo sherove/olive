@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.olive.main.mapper.MainMapper">
+	<select id="getUserInfo" resultType="baseVo">
+		SELECT 
+				 NAME
+				,AGE
+				,ADDRESS
+			    ,PHONE
+		  FROM  USER
+	</select>
+	
+	<select id="getUserList" resultType="baseVo">
+		SELECT 
+				 NAME
+				,AGE
+				,ADDRESS
+			    ,PHONE
+		  FROM  USER
+	</select>
+</mapper>
