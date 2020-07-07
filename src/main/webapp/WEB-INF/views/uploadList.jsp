@@ -32,8 +32,8 @@
 	
 	</tbody>
 	</table>
-	<br><br>
-
+	<br>
+	<h1> 단일 파일 </h1>
 	  <form action="/main/UploadService" method="post" enctype="multipart/form-data">
 	     <table>
 		          <tr>
@@ -45,8 +45,31 @@
 		              <td><input type="text" name="title"/></td>
 		          </tr>
 		          <tr>
-		              <td>파일이름 : </td>
-		              <td><input type="file" value="파일 선택" name="report"/></td>
+		              <td>단일 파일 : </td>
+		              <td><input type="file" value="파일 선택" name="fileObj"/></td>
+		          </tr>
+		          <tr>
+		              <td colspan="2"><input type="submit" value="업로드"/></td>
+		          </tr>
+	     </table>
+    </form>
+    
+    <br><br>
+    
+    <h1> 다중 파일 </h1>
+	  <form action="/main/UploadService3" method="post" enctype="multipart/form-data">
+	     <table>
+		          <tr>
+		              <td>작성자 : </td>
+		              <td><input type="text" name="author"/></td>
+		          </tr>
+		          <tr>
+		              <td>제목 : </td>
+		              <td><input type="text" name="title"/></td>
+		          </tr>
+		          <tr>
+		              <td>다중 파일 : </td>
+		              <td><input type="file" value="파일 선택" name="fileObj" multiple></td>
 		          </tr>
 		          <tr>
 		              <td colspan="2"><input type="submit" value="업로드"/></td>
