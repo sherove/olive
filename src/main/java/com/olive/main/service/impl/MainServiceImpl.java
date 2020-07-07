@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.olive.main.mapper.MainMapper;
 import com.olive.main.service.MainService;
 import com.olive.main.vo.BaseVo;
+import com.olive.main.vo.UploadVo;
 
 @Service
 public class MainServiceImpl implements MainService {
@@ -28,6 +29,12 @@ public class MainServiceImpl implements MainService {
 		resultMap.put("list",list);
 		resultMap.put("voList", vo.getVolist());
 		return resultMap;
+	}
+
+	@Override
+	public List<UploadVo> getUploadList() throws Exception {
+		List<UploadVo> list = mainMapper.getUploadList();
+		return null;
 	}
 
 }

@@ -29,14 +29,18 @@ Hello...
 		 <th>이 름</th>
 		 <th>나 이</th>
 		 <th>주 소</th>
-		 <th>휴대폰번호</th>
+		 <th>전화번호</th>
+		 <th>파일 업로드</th>
 		</tr>
 	</thead>
 	<tbody id="testBody">
 	
 	</tbody>
-
 </table>
+
+	<br>
+	<br>
+	
 </body>
 </html>
 

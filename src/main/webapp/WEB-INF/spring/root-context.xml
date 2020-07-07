@@ -24,14 +24,10 @@
      <property name="logFormatter"> 
          <bean class="net.sf.log4jdbc.tools.Log4JdbcCustomFormatter"> 
              <property name="loggingType" value="MULTI_LINE" /> 
-             <property name="sqlPrefix" value=" SQL START -> : "/> 
+             <property name="sqlPrefix" value=" SQL START ㅡㅡㅡㅡㅡㅡ : "/> 
          </bean> 
      </property> 
  	</bean> 
-
-
-    <!--   class="org.springframework.jdbc.datasource.DriverManagerDataSource" -->   
-
 	
 	<!-- mybatis SqlSessionFactoryBean -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -44,5 +40,4 @@
 		<property name="basePackage" value="com.olive.**.mapper" /> 
 	</bean>
 
-	
 </beans>

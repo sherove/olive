@@ -19,4 +19,13 @@
 			    ,PHONE
 		  FROM  USER
 	</select>
+	
+	<select id="getUploadList" resultType="uploadVo">
+		SELECT 
+				 NAME
+				,SUBJECT
+				,FILENAME
+				,WRITEDATE
+		  FROM  UPLOAD_TB
+	</select>
 </mapper>
